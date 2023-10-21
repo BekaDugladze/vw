@@ -1,0 +1,144 @@
+#models{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#models h1 {
+    margin: 30px 0 15px 0;
+    color: #001E50;
+    font-family: Aharoni;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#models ul {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+#models ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+#models ul li button{
+    color: #001E50;
+    font-family: Aharoni;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 3px 15px;
+}
+.ew-resize {
+    cursor: pointer;
+  }
+.cars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    border: #001E50 1px solid;
+    text-align: center;
+    margin: 15px ;
+}
+.cars div{
+    width: 100%;
+    padding: 0;
+}
+.cars div h3{
+    padding: 0;
+    margin: 10px 0;
+    color: #FFF;
+    font-family: Aharoni;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Electric{
+    background: #00CD52;
+}
+.New{
+    background:  #CD0000;;
+}
+.cars img{
+    width: 350px;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.cars video{
+    width: 350px;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.cars h2{
+    color: #001E50;
+    font-family: Kabel Ult BT;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px;
+}
+.cars h3{
+    color: #001E50;
+    font-family: Kabel Ult BT;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px;
+}
+.cars a{
+    text-decoration: none;
+    color: white;
+    background: #001E50;
+    margin: 15px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 200px) and (max-width:908px){
+    #models h1{
+        color: #FFF;
+    }
+    #models ul{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    #models ul li{
+        margin: 10px 5px;
+    }
+    #models ul li button{
+        font-size: 14px;
+    }
+    .cars{
+        background-color: white;
+    }
+}

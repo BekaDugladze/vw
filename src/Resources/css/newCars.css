@@ -1,0 +1,172 @@
+.newCars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#newCars{
+    color: #001E50;
+    font-family: Aharoni;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 95px auto 40px auto;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.left img{
+    width: 450px;
+    height: auto;
+    border-radius: 25px 0px 0px 25px;
+}
+.right img{
+    width: 450px;
+    height: auto;
+    border-radius: 0 25px 25px 0;
+}
+.lefthp{
+    margin: 0 15px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-left: 2px solid #001E50;
+    width: 50%;
+}
+.righthp{
+    margin: 0 15px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-right: 2px solid #001E50;
+    width: 50%;
+}
+.lefthp h3{
+    color: #001E50;
+    font-family: Aharoni;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: #001E50 3px solid;
+    padding: 0 0 20px 0;
+}
+.righthp h3{
+    color: #001E50;
+    font-family: Aharoni;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: #001E50 3px solid;
+    padding: 0 0 20px 0;
+}
+.lefthp p, .righthp p{
+    color: #001E50;
+    font-family: 'Arima';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lefthp a{
+    border-radius: 25px;
+    background: #001E50;
+    padding: 15px 30px;
+    color: #FFF;
+    font-family: 'Passion One', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.righthp a{
+    border-radius: 25px;
+    background: #001E50;
+    padding: 15px 30px;
+    color: #FFF;
+    font-family: 'Passion One', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: 15px 0;
+}
+#media{
+    display: none;
+}
+#norm{display: inline;}
+@media screen and (min-width: 200px) and (max-width:908px){
+    #newCars{
+        margin: 25px 0 10px 0;
+        color: #FFF;
+    }
+    .left, .right{
+        flex-direction: column;
+        width: 80%;
+        border-radius: 25px;
+        border: 1px solid white;
+        background: #FFF;
+    }
+    .left img, .right img{
+        width: 100%;
+        height: auto;
+        border-radius: 25px 25px 0 0;
+    }
+    .lefthp{
+        margin: 0 15px;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border-left: none;
+        width: 100%;
+    }
+    .righthp{
+        border-right: none;
+        width: 100%;
+    }
+    .lefthp p, .righthp p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #media{
+        display: block;
+    }
+    #norm{
+        display: none;
+    }
+    .righthp h3, .lefthp h3{
+        font-size: 20px;
+        text-align: center;
+    }
+}
