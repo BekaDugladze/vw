@@ -7,7 +7,7 @@ import id3 from './Photo/id3.jpg';
 import id4 from './Photo/id4.jpg';
 import id5 from './Photo/id5.jpg';
 import id6 from './Photo/id6.jpg';
-import id7 from './Photo/id7.jpg';
+import id17 from './Photo/id7.jpg';
 import id8 from './Photo/id8.jpg';
 import id9 from './Photo/id9.jpg';
 import id10 from './Photo/id10.jpg';
@@ -125,7 +125,7 @@ export default class Models extends Component{
             active: 'tab1',
             suv: [
                 {
-                img: [suvone, id11, id2, id1, id3, id4, id5, id6, id7, id8, id9, id10],
+                img: [suvone, id11, id2, id1, id3, id4, id5, id6, id17, id8, id9, id10],
                 currentImageIndex: 0,
                 alt: 'suv ID.4',
                 className: 'Electric',
